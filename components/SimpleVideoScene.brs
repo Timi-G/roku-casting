@@ -41,16 +41,16 @@ sub setContent()
   'ContentNode.Length = 1280
   'ContentNode.Title = "Dan Gilbert asks, Why are we happy?"
 
-  m.Image.uri="pkg:/images/CraigVenter-2008.jpg"
+  m.Image.uri="pkg:/images/mira_chatribbit.png"
   ContentNode = CreateObject("roSGNode", "ContentNode")
   ContentNode.streamFormat = "mp4"
-  ContentNode.url = "http://video.ted.com/talks/podcast/DanGilbert_2004_480.mp4"
-  ContentNode.ShortDescriptionLine1 = "Can we create new life out of our digital universe?"
-  ContentNode.Description = "He walks the TED2008 audience through his latest research into fourth-generation fuels -- biologically created fuels with CO2 as their feedstock. His talk covers the details of creating brand-new chromosomes using digital technology, the reasons why we would want to do this, and the bioethics of synthetic life. A fascinating Q and A with TED's Chris Anderson follows."
+  ContentNode.url = "https://miracoleplus.com/wp-content/uploads/2024/12/ChatRibitTitle.mp4"
+  ContentNode.ShortDescriptionLine1 = "Chat & Ribbit, a fury tale of two parakeet birds"
+  ContentNode.Description = "Introducing our latest project! Chat & Ribbit, a fury tale of two parakeet birds that explores the Word of God by going on past, present & future adventures! 🐦✨ Big thanks to Director & Co-Writer Shedlea Chapman and Design Editor & Co-Writer Shimira Cole for their incredible work on our new show. Proudly produced by MiraCole Media! Let’s make magic together! 🌟🎥"
   ContentNode.StarRating = 80
   ContentNode.Length = 1972
-  ContentNode.Title = "Craig Venter asks, Can we create new life out of our digital universe?"
-  ContentNode.subtitleConfig = {Trackname: "pkg:/source/CraigVenter.srt" }
+  ContentNode.Title = "Chat & Ribbit, a fury tale of two parakeet birds"
+  ContentNode.subtitleConfig = {Trackname: "pkg:/source/ChatandRibbit.srt" }
 
   'm.Image.uri="pkg:/images/BigBuckBunny.jpg"
   'ContentNode = CreateObject("roSGNode", "ContentNode")
@@ -72,8 +72,8 @@ sub setContent()
   'm.Title.text = "Dan Gilbert asks, Why are we happy?"
   'm.Details.text = "Harvard psychologist Dan Gilbert says our beliefs about what will make us happy are often wrong -- a premise he supports with intriguing research, and explains in his accessible and unexpectedly funny book, Stumbling on Happiness."
 
-  m.Title.text = "Craig Venter asks, Can we create new life out of our digital universe?"
-  m.Details.text =  "He walks the TED2008 audience through his latest research into fourth-generation fuels -- biologically created fuels with CO2 as their feedstock. His talk covers the details of creating brand-new chromosomes using digital technology, the reasons why we would want to do this, and the bioethics of synthetic life. A fascinating Q and A with TED's Chris Anderson follows."
+  m.Title.text = "Chat & Ribbit"
+  m.Details.text =  "Introducing our latest project! Chat & Ribbit, a fury tale of two parakeet birds that explores the Word of God by going on past, present & future adventures! 🐦✨ Big thanks to Director & Co-Writer Shedlea Chapman and Design Editor & Co-Writer Shimira Cole for their incredible work on our new show. Proudly produced by MiraCole Media! Let’s make magic together! 🌟🎥"
 
 end sub
 
